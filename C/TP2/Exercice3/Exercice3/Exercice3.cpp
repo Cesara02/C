@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 	char str[100];
 
 	printf("Entrez la chaine a convertir : ");
-	scanf("%c", &str);
+	scanf("%s", str);
 
 	transformation(str);
 
